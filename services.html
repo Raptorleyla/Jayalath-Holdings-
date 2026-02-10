@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Ceylon Prime Logistics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            900: '#0a192f',
+                            800: '#112240',
+                        },
+                        orange: {
+                            500: '#f97316',
+                            600: '#ea580c',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .page-header {
+            background-image: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-navy-900 shadow-lg" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="text-white font-bold text-2xl tracking-wider">
+                        CEYLON <span class="text-orange-500">PRIME</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-300 hover:text-white transition-colors font-medium">Home</a>
+                    <a href="services.html"
+                        class="text-white hover:text-orange-500 transition-colors font-medium border-b-2 border-orange-500">Services</a>
+                    <a href="about.html" class="text-gray-300 hover:text-white transition-colors font-medium">About
+                        Us</a>
+                    <a href="contact.html"
+                        class="bg-orange-600 hover:bg-orange-700 text-white px-5 py-2 rounded-full font-medium transition-colors">Contact
+                        Us</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-navy-900 px-4 pt-2 pb-4 space-y-2 border-t border-navy-800">
+            <a href="index.html" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md font-medium">Home</a>
+            <a href="services.html" class="block text-white px-3 py-2 rounded-md font-medium bg-navy-800">Services</a>
+            <a href="about.html" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md font-medium">About
+                Us</a>
+            <a href="contact.html" class="block text-orange-500 font-medium px-3 py-2">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header h-80 flex items-center justify-center text-center px-4 pt-20">
+        <div>
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Our Logistic Services</h1>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto">Comprehensive supply chain solutions tailored for Sri
+                Lankan businesses.</p>
+        </div>
+    </header>
+
+    <!-- Services Grid -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Service 1 -->
+            <div class="flex flex-col md:flex-row items-center gap-12 mb-20 scroll-mt-24" id="transport">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1586191582119-2925c6ec1840?auto=format&fit=crop&w=800&q=80"
+                        alt="Prime Mover Truck"
+                        class="rounded-lg shadow-2xl w-full object-cover h-80 hover:scale-[1.02] transition-transform duration-500">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center mb-4">
+                        <span class="bg-orange-100 text-orange-600 p-3 rounded-full mr-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 012-2v0m24 0v0">
+                                </path>
+                            </svg>
+                        </span>
+                        <h2 class="text-3xl font-bold text-navy-900">Prime Mover Transport</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        We operate a premium fleet of prime movers capable of hauling 20ft, 40ft, and 45ft containers.
+                        Our drivers are highly trained in safety and efficiency, ensuring your cargo moves seamlessly
+                        from port to warehouse.
+                    </p>
+                    <ul class="space-y-2 text-gray-700 mb-8">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-orange-500 mr-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> Container Haulage</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-orange-500 mr-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> GPS Tracking</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-orange-500 mr-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> 24/7 Availability</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="flex flex-col md:flex-row-reverse items-center gap-12 mb-20 scroll-mt-24" id="warehousing">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=800&q=80"
+                        alt="Warehouse Interior"
+                        class="rounded-lg shadow-2xl w-full object-cover h-80 hover:scale-[1.02] transition-transform duration-500">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center mb-4">
+                        <span class="bg-orange-100 text-orange-600 p-3 rounded-full mr-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
+                                </path>
+                            </svg>
+                        </span>
+                        <h2 class="text-3xl font-bold text-navy-900">Warehousing & Distribution</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Secure storage solutions for your goods. Our strategically located warehouses near Colombo
+                        provide easy access for import/export activities, with inventory management systems to keep you
+                        updated.
+                    </p>
+                    <ul class="space-y-2 text-gray-700 mb-8">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-orange-500 mr-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> Short & Long Term Storage</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-orange-500 mr-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> Inventory Management</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-orange-500 mr-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> Pick & Pack Services</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="flex flex-col md:flex-row items-center gap-12 scroll-mt-24" id="project-cargo">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1494412574643-35d324698428?auto=format&fit=crop&w=800&q=80"
+                        alt="Port Logistics"
+                        class="rounded-lg shadow-2xl w-full object-cover h-80 hover:scale-[1.02] transition-transform duration-500">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center mb-4">
+                        <span class="bg-orange-100 text-orange-600 p-3 rounded-full mr-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                </path>
+                            </svg>
+                        </span>
+                        <h2 class="text-3xl font-bold text-navy-900">Custom Clearance & Projects</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Navigating Sri Lanka Customs can be complex. Our expert team handles clearance documentation
+                        efficiently. We also manage project cargo for oversized machinery and special equipment.
+                    </p>
+                    <ul class="space-y-2 text-gray-700 mb-8">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-orange-500 mr-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> Customs Brokerage</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-orange-500 mr-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> Oversized Cargo</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-orange-500 mr-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> Port Handling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-900 text-white pt-16 pb-8 border-t border-navy-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <a href="index.html" class="text-white font-bold text-2xl tracking-wider block mb-6">
+                        CEYLON <span class="text-orange-500">PRIME</span>
+                    </a>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Your trusted partner in logistics and supply chain management in Sri Lanka.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6 text-white">Quick Links</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li><a href="index.html" class="hover:text-orange-500 transition-colors">Home</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition-colors">Services</a></li>
+                        <li><a href="about.html" class="hover:text-orange-500 transition-colors">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-orange-500 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6 text-white">Services</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li><a href="services.html" class="hover:text-orange-500 transition-colors">Prime Mover
+                                Transport</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition-colors">Container
+                                Haulage</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition-colors">Warehousing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6 text-white">Contact Info</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li class="flex items-start">
+                            <span class="mr-3 text-orange-500">📍</span>
+                            <span>123 Logistics Way, Port City,<br>Colombo 01, Sri Lanka</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="mr-3 text-orange-500">📞</span>
+                            <span>+94 11 234 5678</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-navy-800 pt-8 flex justify-center">
+                <p class="text-gray-500 text-sm">© 2024 Ceylon Prime Logistics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
